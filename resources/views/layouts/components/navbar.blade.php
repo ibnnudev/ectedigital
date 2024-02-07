@@ -37,11 +37,11 @@
                         class="block py-2 px-3 md:p-0 rounded md:hover:bg-transparent md:hover:text-white {{ request()->routeIs('guest.service') ? 'font-medium text-white' : 'text-secondary-font' }}">Layanan</a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="{{ route('guest.portfolio') }}"
                         class="block py-2 px-3 md:p-0 rounded md:hover:bg-transparent md:hover:text-white {{ request()->routeIs('guest.portfolio') ? 'font-medium text-white' : 'text-secondary-font' }}">Karya</a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="{{ route('guest.contact') }}"
                         class="block py-2 px-3 md:p-0 rounded md:hover:bg-transparent md:hover:text-white {{ request()->routeIs('guest.contact') ? 'font-medium text-white' : 'text-secondary-font' }}">Kontak</a>
                 </li>
             </ul>
