@@ -54,7 +54,6 @@
         {{-- End Navbar --}}
 
         {{-- Hero --}}
-
         <section class="relative">
             <div class="relative z-10">
                 <div class="items-center px-8 pt-12 mx-auto max-w-7xl lg:pt-14 flex">
@@ -79,7 +78,7 @@
                     </div>
                     <img src="{{ asset('assets/trusted_client.png') }}" class="h-40" alt="">
                 </div>
-                <div class="items-center px-8 w-full text-center pb-56">
+                <div class="items-center px-8 w-full text-center pb-48">
                     <ul class="text-white font-light list-disc flex w-full gap-x-10 justify-center items-center mt-6">
                         <li>Toko Online</li>
                         <li>Point of Sales</li>
@@ -98,6 +97,124 @@
             <img src="{{ asset('assets/pattern.png') }}" alt=""
                 class="absolute top-2/3 left-0 right-0 z-0 mx-auto" width="1100">
         </section>
+        {{-- End Hero --}}
+
+        {{-- Our Expertise --}}
+
+        <section class="bg-white">
+            <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-32">
+                <div class="max-w-2xl mx-auto text-center mb-8">
+                    <p class="font-semibold text-2xl text-primary mb-4">
+                        Kelebihan Kami
+                    </p>
+                    <p class="text-5xl font-bold sora tracking-tight text-black sm:text-4xl max-w-xl mx-auto">
+                        Bergabung Bersama Kembangkan Bisnismu
+                    </p>
+                    <p class="max-w-lg mt-7 tracking-tight text-black mx-auto">
+                        Berkembang bersama untuk wujudkan bisnis yang cemerlang. Gapai mimpimu untuk pemasaran
+                        produk yang lebih baik
+                    </p>
+                </div>
+                <div class="">
+                    <div class="max-w-xl py-12 mx-auto text-left lg:max-w-7xl">
+                        <div>
+                            <div class="grid grid-cols-2 gap-12 lg:grid-cols-3 lg:space-y-0">
+                                <div class="bg-soft-green p-5 rounded-xl">
+                                    <div class="h-14 w-14 number-right  flex items-center justify-center">
+                                        <span class="text-primary sora font-semibold text-3xl">01</span>
+                                    </div>
+                                    <div>
+                                        <p class="mt-4 sora text-2xl font-semibold leading-6 text-black">
+                                            Terstandarisasi
+                                        </p>
+                                    </div>
+                                    <div class="mt-4 text-black line-clamp-3 hover:line-clamp-none text-sm">
+                                        Saat bekerja di tempat kerja global, seringkali sulit untuk mengukur pengalaman
+                                        pelatihan peserta didik, yang dapat menghambat kemajuan mereka.
+                                    </div>
+                                </div>
+                                <div class="border border-soft-white p-5 rounded-xl">
+                                    <div class="h-14 w-14 number-right  flex items-center justify-center">
+                                        <span class="text-primary sora font-semibold text-3xl">02</span>
+                                    </div>
+                                    <div>
+                                        <p class="mt-4 sora text-2xl font-semibold leading-6 text-black">
+                                            Pengurangan Biaya
+                                        </p>
+                                    </div>
+                                    <div class="mt-4 text-black line-clamp-3 hover:line-clamp-none text-sm">
+                                        Pengurangan biaya pelatihan adalah salah satu manfaat terbesar dari pelatihan
+                                        online. Ini dapat mengurangi biaya perjalanan, akomodasi, dan biaya pelatihan
+                                        lainnya.
+                                    </div>
+                                </div>
+                                <div class="bg-soft-green p-5 rounded-xl">
+                                    <div class="h-14 w-14 number-right  flex items-center justify-center">
+                                        <span class="text-primary sora font-semibold text-3xl">03</span>
+                                    </div>
+                                    <div>
+                                        <p class="mt-4 sora text-2xl font-semibold leading-6 text-black">
+                                            Kostumisasi Berlebih
+                                        </p>
+                                    </div>
+                                    <div class="mt-4 text-black line-clamp-3 hover:line-clamp-none text-sm">
+                                        Kami dapat menyesuaikan pelatihan online dengan kebutuhan peserta didik. Ini
+                                        dapat di lakukan dengan menyesuaikan materi pelatihan, waktu, dan tempat. Ini
+                                        dapat membantu peserta didik untuk belajar dengan cara yang lebih efektif.
+                                    </div>
+                                </div>
+                                <div class="border border-soft-white p-5 rounded-xl">
+                                    <div class="h-14 w-14 number-right  flex items-center justify-center">
+                                        <span class="text-primary sora font-semibold text-3xl">04</span>
+                                    </div>
+                                    <div>
+                                        <p class="mt-4 sora text-2xl font-semibold leading-6 text-black">
+                                            Harga Terjangkau
+                                        </p>
+                                    </div>
+                                    <div class="mt-4 text-black line-clamp-3 hover:line-clamp-none text-sm">
+                                        Hemat biaya dengan pelatihan online. Ini dapat mengurangi biaya perjalanan,
+                                        akomodasi, dan biaya pelatihan lainnya. Ini juga dapat mengurangi biaya
+                                        pelatihan yang terkait dengan penggunaan kelas pelatihan.
+                                    </div>
+                                </div>
+                                <div class="bg-soft-green p-5 rounded-xl">
+                                    <div class="h-14 w-14 number-right  flex items-center justify-center">
+                                        <span class="text-primary sora font-semibold text-3xl">03</span>
+                                    </div>
+                                    <div>
+                                        <p class="mt-4 sora text-2xl font-semibold leading-6 text-black">
+                                            Kepuasan Klien
+                                        </p>
+                                    </div>
+                                    <div class="mt-4 text-black line-clamp-3 hover:line-clamp-none text-sm">
+                                        Mari ciptakan kepuasan klien bersama kami. Kami akan membantu Anda dalam proses
+                                        pembuatan website yang sesuai dengan keinginan Anda. Kami akan memberikan
+                                        layanan terbaik untuk Anda.
+                                    </div>
+                                </div>
+                                <div class="border border-soft-white p-5 rounded-xl">
+                                    <div class="h-14 w-14 number-right  flex items-center justify-center">
+                                        <span class="text-primary sora font-semibold text-3xl">02</span>
+                                    </div>
+                                    <div>
+                                        <p class="mt-4 sora text-2xl font-semibold leading-6 text-black">
+                                            Efektifitas Bisnis
+                                        </p>
+                                    </div>
+                                    <div class="mt-4 text-black line-clamp-3 hover:line-clamp-none text-sm">
+                                        Pengembangan website akan membantu Anda dalam meningkatkan efektifitas bisnis
+                                        Anda. Kami akan membantu Anda dalam proses pembuatan website yang sesuai dengan
+                                        keinginan Anda.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- End Our Expertise --}}
 
     </div>
 

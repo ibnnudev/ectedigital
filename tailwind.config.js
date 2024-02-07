@@ -28,6 +28,8 @@ export default {
                 neutral: "#3D4451",
                 "base-100": "#FFFFFF",
                 black: "#1E1E1E",
+                "soft-green": "#F7FDF9",
+                "soft-white": "#F2F2F2",
             },
         },
     },

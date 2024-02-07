@@ -26,3 +26,20 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #1bc34e;
 }
+
+.number-right {
+    background-image: url("/public/assets/number-right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 53px;
+    width: 53px;
+}
+.number-left {
+    background-image: url("/public/assets/number-left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 53;
+    width: 53;
+}
