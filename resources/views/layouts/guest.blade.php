@@ -8,6 +8,9 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    {{-- Icon --}}
+    {{-- <link rel="icon" href="{{ asset('assets/logomini.png') }}" type="image/x-icon" /> --}}
+
     <!-- Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -32,6 +32,7 @@ export default {
                 "soft-white": "#F2F2F2",
                 "soft-gray": "#F8F8F8",
                 "desc-font": "#A7ABB6",
+                "border-color": "#EAEAEA",
             },
             borderRadius: {
                 "4xl": "2rem",

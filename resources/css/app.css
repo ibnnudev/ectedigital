@@ -56,3 +56,28 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.faq {
+    padding: 1.25rem;
+    background-color: transparent;
+    border-radius: 12px;
+    border-color: #f2f2f2;
+    border-width: 1px;
+}
+
+.active-faq {
+    background-color: white;
+    padding: 1.25rem;
+    box-shadow: 0 11.57px 51.08px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+}
+
+.faq:hover {
+    background-color: #1bc35e;
+    padding: 1.25rem;
+    box-shadow: 0 11.57px 51.08px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
