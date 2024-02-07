@@ -33,6 +33,11 @@ export default {
                 "soft-gray": "#F8F8F8",
                 "desc-font": "#A7ABB6",
             },
+            borderRadius: {
+                "4xl": "2rem",
+                "5xl": "2.5rem",
+                "6xl": "3rem",
+            },
         },
     },
 
