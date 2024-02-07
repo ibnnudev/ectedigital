@@ -13,7 +13,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                sans: ["Inter", "Sora", ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 primary: "#1BC35E",
