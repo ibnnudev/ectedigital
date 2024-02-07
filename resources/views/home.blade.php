@@ -78,7 +78,7 @@
                     </div>
                     <img src="{{ asset('assets/trusted_client.png') }}" class="h-40" alt="">
                 </div>
-                <div class="items-center px-8 w-full text-center pb-48">
+                <div class="items-center px-8 w-full text-center pb-56">
                     <ul class="text-white font-light list-disc flex w-full gap-x-10 justify-center items-center mt-6">
                         <li>Toko Online</li>
                         <li>Point of Sales</li>
