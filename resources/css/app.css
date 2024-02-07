@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sora {
+    font-family: "Sora", sans-serif;
+}
+
+/* custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #16a34a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1bc35e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #1bc34e;
+}
