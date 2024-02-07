@@ -30,6 +30,8 @@ export default {
                 black: "#1E1E1E",
                 "soft-green": "#F7FDF9",
                 "soft-white": "#F2F2F2",
+                "soft-gray": "#F8F8F8",
+                "desc-font": "#A7ABB6",
             },
         },
     },

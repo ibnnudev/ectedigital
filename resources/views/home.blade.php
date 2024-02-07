@@ -1,8 +1,8 @@
 <x-guest-layout>
 
-    <div class="bg-primary">
+    <div>
         {{-- Navbar --}}
-        <nav class="border-gray-200">
+        <nav class="border-gray-200 bg-primary">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="{{ asset('assets/logo mini.png') }}" class="h-10" alt="Flowbite Logo" />
@@ -54,7 +54,7 @@
         {{-- End Navbar --}}
 
         {{-- Hero --}}
-        <section class="relative">
+        <section class="relative bg-primary">
             <div class="relative z-10">
                 <div class="items-center px-8 pt-12 mx-auto max-w-7xl lg:pt-14 flex">
                     <img src="{{ asset('assets/weekly_growth.png') }}" class="h-64" alt="">
@@ -100,7 +100,6 @@
         {{-- End Hero --}}
 
         {{-- Our Expertise --}}
-
         <section class="bg-white">
             <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-32">
                 <div class="max-w-2xl mx-auto text-center mb-8">
@@ -215,6 +214,164 @@
             </div>
         </section>
         {{-- End Our Expertise --}}
+
+        {{-- Let's work together --}}
+        <section>
+            <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="col-span-4">
+                        <img src="{{ asset('assets/bgcard.png') }}" alt="">
+                    </div>
+                    <div class="bg-soft-gray rounded-xl p-10 flex items-center justify-between col-span-8">
+                        <div class="max-w-40">
+                            <h3 class="font-bold sora text-3xl">
+                                Partner Terpercaya
+                            </h3>
+                            <p class="text-gray-400 font-light mt-5">
+                                Kepercayaan dan intergritas adalah kunci keberhasilan
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="font-bold text-4xl text-primary">
+                                200+
+                            </h3>
+                            <p class="text-gray-400 font-light mt-4">
+                                Proyek Selesai
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="font-bold text-4xl text-primary">
+                                1.230+
+                            </h3>
+                            <p class="text-gray-400 font-light mt-4">
+                                Klien Terpuaskan
+                            </p>
+                        </div>
+                        <div>
+                            <button type="button"
+                                class="text-white bg-primary hover:bg-primary focus:outline-none text-sm rounded-full px-6 py-3 text-center me-2 mb-2 shadow-btn">
+                                Let's Work
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- End Let's work together --}}
+
+        {{-- Why Choose Us --}}
+        <section>
+            <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+                <div class="grid grid-cols-12 gap-6 items-center">
+                    <div class="col-span-6">
+                        <p class="text-desc-font text-base">
+                            Kenapa memilih kami?
+                        </p>
+                        <h1 class="text-4xl font-bold text-black sora max-w-md mt-4">
+                            Bekerja Cepat adalah fokus kami
+                        </h1>
+                        <p class="text-desc-font text-base mt-4">
+                            Dalam setiap proyek, kami memastikan untuk memberikan hasil dengan cepat tanpa mengorbankan
+                            standar kualitas.
+                        </p>
+                    </div>
+                    <div class="col-span-6">
+                        <img src="{{ asset('assets/img_timeline.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- End Why Choose Us --}}
+
+        {{-- Who Us --}}
+        <section>
+            <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="col-span-6">
+                        <img src="{{ asset('assets/img_whous.png') }}" alt="">
+                    </div>
+                    <div></div>
+                    <div class="col-span-5 self-center">
+                        <p class="text-desc-font text-base">
+                            Siapa kami?
+                        </p>
+                        <h1 class="text-4xl font-bold text-black sora max-w-md mt-4">
+                            Dipercaya 100% oleh banyak orang
+                        </h1>
+                        <p class="text-desc-font text-base mt-4 max-w-md">
+                            Bergabunglah dengan komunitas yang mempercayakan kami, dan rasakan kehandalan
+                        </p>
+
+                        <div class="mt-6">
+                            <button type="button"
+                                class="text-white bg-primary hover:bg-primary focus:outline-none text-sm rounded-full px-6 py-3 text-center me-2 mb-2 shadow-btn">
+                                Let's Work
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- End Who Us --}}
+
+        {{-- Our Portolio --}}
+        <section>
+            <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+                <div class="grid grid-cols-12 gap-6 items-center">
+                    <div class="col-span-6">
+                        <p class="text-desc-font text-base">
+                            Proyek
+                        </p>
+                        <h1 class="text-4xl font-bold text-black sora mt-4">
+                            Portofolio Terbaik Kami
+                        </h1>
+                        <p class="text-desc-font text-base mt-4">
+                            Selama bertahun-tahun, kami telah membantu ratusan klien yang ingin memulai bisnis di dunia
+                            digital. Lihat beberapa karya terbaik kami.
+                        </p>
+                    </div>
+                    <div class="col-span-6 place-self-end self-center">
+                        <button type="button"
+                            class="text-white bg-primary hover:bg-primary focus:outline-none text-sm rounded-full px-6 py-3 text-center me-2 mb-2 shadow-btn">
+                            Lihat proyek lainnya
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- End Our Portolio --}}
+
+        {{-- Testimonial --}}
+        <section>
+            <div class="relative items-center w-full px-5 pt-24 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+                <div class="max-w-3xl mx-auto text-center">
+                    <p class="text-desc-font mb-4">
+                        Apa yang mereka katakan?
+                    </p>
+                    <h1 class="text-black text-4xl sora font-bold mb-6">
+                        Testimonial
+                    </h1>
+                    <p class="text-desc-font mb-10">
+                        Kesan dari klien yang telah kami kerjakan
+                    </p>
+                    <img src="{{ asset('assets/img_googlemeet.png') }}" width="170" height="59"
+                        alt="img_googlemeet" class="mb-4 mx-auto">
+                    <p class="text-xl text-black leading-10 mb-11">
+                        Produk ini tidak hanya efektif, tetapi juga memberikan nilai lebih. Sebuah pilihan yang sangat
+                        tepat, saya sungguh merekomendasikannya kepada semua orang. Terima kasih
+                    </p>
+                    <div class="justify-center mb-1">
+                        <p class="text-2xl font-bold text-black sora">
+                            Moh Ibnu Abdurrohman Sutio
+                        </p>
+                        <span class="text-black text-sm">
+                            Web Developer - Ecte Digital
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- End Testimonial --}}
 
     </div>
 

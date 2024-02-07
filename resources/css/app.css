@@ -43,3 +43,8 @@
     width: 53;
     width: 53;
 }
+
+.shadow-btn {
+    /* blur 30, y 25, color: 00AC47 , opacity 10% */
+    box-shadow: 0 25px 30px 0 rgba(0, 172, 71, 0.1);
+}
