@@ -56,9 +56,9 @@
         {{-- Hero --}}
 
         <section class="relative">
-            <div class="relative z-0">
+            <div class="relative z-10">
                 <div class="items-center px-8 pt-12 mx-auto max-w-7xl lg:pt-14 flex">
-                    <img src="{{ asset('assets/weekly_growth.png') }}" width="213" height="221" alt="">
+                    <img src="{{ asset('assets/weekly_growth.png') }}" class="h-64" alt="">
                     <div class="justify-center w-full text-center max-auto">
                         <div class="justify-center w-full mx-auto">
 
@@ -77,7 +77,7 @@
                             </p>
                         </div>
                     </div>
-                    <img src="{{ asset('assets/trusted_client.png') }}" width="220" height="131" alt="">
+                    <img src="{{ asset('assets/trusted_client.png') }}" class="h-40" alt="">
                 </div>
                 <div class="items-center px-8 w-full text-center pb-56">
                     <ul class="text-white font-light list-disc flex w-full gap-x-10 justify-center items-center mt-6">
@@ -90,13 +90,13 @@
                     </ul>
 
                     <a href="#_"
-                        class="items-center justify-center w-full px-6 py-2.5 text-center text-primary font-medium mt-10 duration-200 bg-white border-2 border-white rounded-full inline-flex hover:bg-transparent hover:border-white hover:text-white focus:outline-none lg:w-auto focus-visible:outline-white">
+                        class="items-center justify-center w-full px-6 py-2.5 text-center text-primary font-medium mt-10 duration-200 bg-white border-2 border-white rounded-full inline-flex hover:bg-transparent hover:border-white hover:bg-primary hover:text-white focus:outline-none lg:w-auto focus-visible:outline-white">
                         Start Project
                     </a>
                 </div>
             </div>
             <img src="{{ asset('assets/pattern.png') }}" alt=""
-                class="absolute top-2/3 left-0 right-0 z-50 w-full mx-auto">
+                class="absolute top-2/3 left-0 right-0 z-0 mx-auto" width="1100">
         </section>
 
     </div>
