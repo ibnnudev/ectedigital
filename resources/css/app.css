@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sora {
+    font-family: "Sora", sans-serif;
+}
+
+/* custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1bc35e;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #1bc34e;
+}
+
+.number-right {
+    background-image: url("/public/assets/number-right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 53px;
+    width: 53px;
+}
+.number-left {
+    background-image: url("/public/assets/number-left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 53;
+    width: 53;
+}
+
+.shadow-btn {
+    /* blur 30, y 25, color: 00AC47 , opacity 10% */
+    box-shadow: 0 25px 30px 0 rgba(0, 172, 71, 0.1);
+}
+
+.bg-pattern-line {
+    background-image: url("/public/assets/patternline.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
