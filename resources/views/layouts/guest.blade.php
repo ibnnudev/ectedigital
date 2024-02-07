@@ -33,7 +33,11 @@
 </head>
 
 <body class="font-sans text-gray-900 antialiased">
-    {{ $slot }}
+    <div>
+        @include('layouts.components.navbar')
+        {{ $slot }}
+        @include('layouts.components.footer')
+    </div>
 
     <!-- Flowbite JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>

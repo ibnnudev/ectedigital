@@ -1,21 +1,13 @@
 <?php
 
+use App\Http\Controllers\GuestController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [GuestController::class, 'index'])->name('guest.home');
+Route::get('about', [GuestController::class, 'about'])->name('guest.about');
+Route::get('service', [GuestController::class, 'service'])->name('guest.service');
+Route::get('portfolio', [GuestController::class, 'portfolio'])->name('guest.portfolio');
+Route::get('contact', [GuestController::class, 'contact'])->name('guest.contact');
 
 require __DIR__ . '/auth.php';
