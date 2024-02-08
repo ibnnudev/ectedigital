@@ -26,6 +26,11 @@ class GuestController extends Controller
         return view('guest.portfolio');
     }
 
+    public function portfolioDetail($id)
+    {
+        return view('guest.portfolio_detail', compact('id'));
+    }
+
     public function contact()
     {
         return view('guest.contact');
