@@ -141,7 +141,6 @@
     {{-- End Description --}}
 
     {{-- FAQ --}}
-    {{-- FAQ --}}
     <section class="bg-white">
         <div class="relative items-center w-full px-5 pt-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-32">
             <div class="mx-auto max-w-xl text-center mb-16">
